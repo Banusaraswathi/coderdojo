@@ -8,12 +8,13 @@ public class Arithmatic {
 	}
 
 	public int subtraction(int i, int j) {
-		// TODO Auto-generated method stub
+		int sub =(14-12);// TODO Auto-generated method stub
 		return 0;
 	}
 
 	public int division(int i, int j) {
-		// TODO Auto-generated method stub
+		int div = (10/2);
+		// TODO Auto-generated method stubi
 		return 0;
 	}
 
