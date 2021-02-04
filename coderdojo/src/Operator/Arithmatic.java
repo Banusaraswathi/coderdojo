@@ -4,18 +4,19 @@ public class Arithmatic {
 
 	public int add(int i, int j) {
 		// TODO Auto-generated method stub
-		return 0;
+		int add=(i+j);
+		return add;
 	}
 
 	public int subtraction(int i, int j) {
-		int sub =(14-12);// TODO Auto-generated method stub
-		return 0;
+		int sub =(i-j);// TODO Auto-generated method stub
+		return sub;
 	}
 
 	public int division(int i, int j) {
-		int div = (10/2);
+		int div = (i/2);
 		// TODO Auto-generated method stubi
-		return 0;
+		return div;
 	}
 
 }
