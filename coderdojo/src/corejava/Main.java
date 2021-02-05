@@ -16,8 +16,13 @@ public class Main {
 		int div =math.division(10,2);
 		System.out.println("division of 10/2"+ div);
 		
-		Relational zxc =new Relational();
-		boolean n =zxc.isequals (12,12);
+		Relational equal =new Relational();
+		boolean n =equal.isequals (12,12);
+		boolean m=equal.notequal(8,9);
+		boolean g=equal.greaterthan(12,15);
+		boolean l=equal.lessthan(5,4);
+		boolean k=equal.greaterthanorequalto(12,10);
+		boolean h=equal.lessthanorequalto(8,9);
 	}
 
 }
