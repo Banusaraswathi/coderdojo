@@ -1,6 +1,7 @@
 package corejava;
 
 import Operator.Arithmatic;
+import Operator.Logical;
 import Operator.Relational;
 
 public class Main {
@@ -23,6 +24,24 @@ public class Main {
 		boolean l=equal.lessthan(5,4);
 		boolean k=equal.greaterthanorequalto(12,10);
 		boolean h=equal.lessthanorequalto(8,9);
+		
+		
+		Logical logic=new Logical();
+		boolean value = logic.andOperator(5);
+		System.out.println("and operator value "+ value);
+		
+		boolean val2 = logic.oroperator(2);
+		System.out.println("or operator "+ val2);
+		String val3 = logic.oroperator2(false, false);
+		System.out.println("oroperator2 "+ val3);
+
+		
+		
+		
 	}
 
-}
+
+		
+	}
+
+
