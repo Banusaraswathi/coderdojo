@@ -10,12 +10,19 @@ public class Main {
 		// TODO Auto-generated method stub
 	Arithmatic math =new Arithmatic();
 		int s =math.add (12,14);
-		System .out.println("sum of 12 and 14"+s);
+		System .out.println("sum of 12 and 14" + s);
 		
 		int sub =math.subtraction(14,12);
-		System.out.println("subtraction of 14-12" +sub);
+		System.out.println("subtraction of 14-12"  + sub);
 		int div =math.division(10,2);
-		System.out.println("division of 10/2"+ div);
+		System.out.println("division of 10/2" + div);
+		
+		int incre = math.increment(4);
+		System.out.println("increment of 4++  " + incre);
+		int decre = math.decrement(8);
+		System.out.println ("decrement of 8--  " + decre);
+		
+		
 		
 		Relational equal =new Relational();
 		boolean n =equal.isequals (12,12);
